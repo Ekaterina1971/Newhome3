@@ -40,6 +40,48 @@ public class Main {
             } else {
                 System.out.println("Доставки нет.");
             }
+
+            int monthNumber = 12;
+            switch (monthNumber) {
+                case 1:
+                    System.out.println("Январь. Месяц зимы");
+                    break;
+                case 2:
+                    System.out.println("Февраль. Месяц зимы");
+                    break;
+                case 3:
+                    System.out.println("Март. Месяц весны");
+                    break;
+                case 4:
+                    System.out.println("Апрель. Месяц весны");
+                    break;
+                case 5:
+                    System.out.println("Май. Месяц весны");
+                    break;
+                case 6:
+                    System.out.println("Июнь. Месяц лета");
+                    break;
+                case 7:
+                    System.out.println("Июль. Месяц лета");
+                    break;
+                case 8:
+                    System.out.println("Август. Месяц лета");
+                    break;
+                case 9:
+                    System.out.println("Сентябрь. Месяц осени");
+                    break;
+                case 10:
+                    System.out.println("Октябрь. Месяц осени");
+                    break;
+                case 11:
+                    System.out.println("Ноябрь. Месяц осени");
+                    break;
+                case 12:
+                    System.out.println("Декабрь. Месяц зимы");
+                    break;
+                default:
+                    System.out.println("Такого месяца нет");
+            }
         }
     }
 }
