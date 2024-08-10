@@ -15,7 +15,7 @@ public class Main {
         } else if (clientOs1 == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения iOS по ссылке.");
         }
-        if (clientOs == 1 && clientDeviceYear >= 2015) {
+        if (clientOs1 == 1 && clientDeviceYear >= 2015) {
             System.out.println("Установите версию приложения для Android по ссылке.");
         } else if (clientOs1 == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для Android по ссылке.");
@@ -33,9 +33,9 @@ public class Main {
             int days = 1;
             if (deliveryDistance < 20) {
                 System.out.println("Потребуется количество дней " + days);
-            } else if(deliveryDistance >= 20 && deliveryDistance < 60) {
+            } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
                 System.out.println("Потребуется количество дней " + (days + 1));
-            } else if(deliveryDistance >= 60 && deliveryDistance <= 100) {
+            } else if (deliveryDistance >= 60 && deliveryDistance <= 100) {
                 System.out.println("Потребуется количество дней " + (days + 2));
             } else {
                 System.out.println("Доставки нет.");
